@@ -1,6 +1,7 @@
 # GAMEMAPD xBoard Chess Engine
 
-    
+## Descriere generală
+GAMEMAPD este un Chess Engine pentru GNU xBoard. Acesta a fost construit pentru a ști să efectueze mutările tuturor pieselor, rocade și mutarea en-passant. De asemenea, se efectuează transformarea pionului in regină. Se generează toate possibilele mutări și se alege una la întâmplare. Dacă se află în șah, engine-ul va efectua o mutare care să îl scoată din această situație. Dacă nu există mutări disponibile, jocul se încheie. 
     
 ## How to use
 
@@ -75,6 +76,7 @@ void black_cmd(int *engine_color);
     Set engine as black ($engine_color).
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+---
 
 ### board.h
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
